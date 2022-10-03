@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <a href="/" class="link">Dai Takanashi</a>
+    <router-link to="/">Home</router-link>
   </div>
 </template>
 
