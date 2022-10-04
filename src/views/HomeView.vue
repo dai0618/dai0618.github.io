@@ -303,7 +303,7 @@ export default {
     text-decoration: none;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #2c3e50;
     }
   }
 
