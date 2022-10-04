@@ -187,7 +187,7 @@ export default {
     text-align: center;
   }
 
-  .vfr_image {
+  .smc_image {
     width: 80%;
   }
 
