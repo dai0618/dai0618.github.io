@@ -2,40 +2,40 @@
   <div id="artwork_container">
     <div v-if="$mq === 'pc'" id="pc">
       <div class="header-title">
-        <a href="/" class="link">Dai Takanashi</a>
+        <router-link to="/" class="link">Dai Takanashi</router-link>
       </div>
       <div id="nav">
-        <a href="/artwork" class="link">Artwork</a> |
+        <router-link to="/artwork" class="link">Artwork</router-link> |
         <a href="../#about" v-scroll-to="'#about'" class="link">About</a> |
         <a href="../#contact" v-scroll-to="'#contact'" class="link">Contact</a>
       </div>
       <div id="Artwork">
         <h1>Artwork</h1>
-        <a href="/vfr">
+        <router-link to="/vfr" class="link">
           <img class="artwork_image" src="../assets/vfr-image1.png" />
-        </a>
-        <a href="/smc">
+        </router-link>
+        <router-link to="/smc" class="link">
           <img class="artwork_image" src="../assets/smc-image1.png" />
-        </a>
+        </router-link>
       </div>
     </div>
     <div v-if="$mq === 'sp'" id="sp">
       <div class="header-title">
-        <a href="/" class="link">Dai Takanashi</a>
+        <router-link to="/" class="link">Dai Takanashi</router-link>
       </div>
       <div id="nav">
-        <a href="/artwork" class="link">Artwork</a> |
+        <router-link to="/artwork" class="link">Artwork</router-link> |
         <a href="../#about" v-scroll-to="'#about'" class="link">About</a> |
         <a href="../#contact" v-scroll-to="'#contact'" class="link">Contact</a>
       </div>
       <div id="Artwork">
         <h1>Artwork</h1>
-        <a href="/vfr">
+        <router-link to="/vfr" class="link">
           <img class="artwork_image" src="../assets/vfr-image1.png" />
-        </a>
-        <a href="/smc">
+        </router-link>
+        <router-link to="/smc" class="link">
           <img class="artwork_image" src="../assets/smc-image1.png" />
-        </a>
+        </router-link>
       </div>
     </div>
   </div>

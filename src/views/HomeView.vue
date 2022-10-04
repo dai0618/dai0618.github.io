@@ -3,16 +3,16 @@
     <div v-if="$mq === 'pc'" id="pc">
       <div id="profile_container">
         <div class="header-title">
-          <a href="/" class="link">Dai Takanashi</a>
+          <router-link to="/" class="link">Dai Takanashi</router-link>
         </div>
         <div id="nav">
-          <a href="/artwork" class="link">Artwork</a> |
+          <router-link to="/artwork" class="link">Artwork</router-link> |
           <a href="#about" class="link">About</a> |
           <a href="#contact" class="link">Contact</a>
         </div>
         <div id="Artwork">
           <h1>Artwork</h1>
-          <a href="/artwork" class="link">
+          <router-link to="/artwork" class="link">
             <hooper :settings="hooperSettings" class="hooper">
               <slide>
                 <img class="image" src="../assets/vfr-image1.png" />
@@ -21,7 +21,7 @@
                 <img class="image" src="../assets/smc-image1.png" />
               </slide>
             </hooper>
-          </a>
+          </router-link>
         </div>
         <div id="about">
           <h1>About</h1>
@@ -102,13 +102,13 @@
           <a href="/" class="link">Dai Takanashi</a>
         </div>
         <div id="nav">
-          <a href="/artwork" class="link">Artwork</a> |
+          <router-link to="/artwork" class="link">Artwork</router-link> |
           <a href="#about" class="link">About</a> |
           <a href="#contact" class="link">Contact</a>
         </div>
         <div id="Artwork">
           <h1>Artwork</h1>
-          <a href="/artwork" class="link">
+          <router-link to="/artwork" class="link">
             <hooper :settings="hooperSettings" class="hooper">
               <slide>
                 <img class="image" src="../assets/vfr-image1.png" />
@@ -117,7 +117,7 @@
                 <img class="image" src="../assets/smc-image1.png" />
               </slide>
             </hooper>
-          </a>
+          </router-link>
         </div>
         <div id="about">
           <h1>About</h1>
@@ -242,7 +242,7 @@ export default {
     text-decoration: none;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #2c3e50;
     }
   }
 

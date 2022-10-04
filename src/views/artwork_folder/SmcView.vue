@@ -2,10 +2,10 @@
   <div id="artwork_container">
     <div v-if="$mq === 'pc'" id="pc">
       <div class="header-title">
-        <a href="/" class="link">Dai Takanashi</a>
+        <router-link to="/" class="link">Dai Takanashi</router-link>
       </div>
       <div id="nav">
-        <a href="../artwork" class="link">Artwork</a> |
+        <router-link to="/artwork" class="link">Artwork</router-link> |
         <a href="../#about" v-scroll-to="'#about'" class="link">About</a> |
         <a href="../#contact" v-scroll-to="'#contact'" class="link">Contact</a>
       </div>
@@ -41,10 +41,10 @@
     </div>
     <div v-if="$mq === 'sp'" id="sp">
       <div class="header-title">
-        <a href="/" class="link">Dai Takanashi</a>
+        <router-link to="/" class="link">Dai Takanashi</router-link>
       </div>
       <div id="nav">
-        <a href="../artwork" class="link">Artwork</a> |
+        <router-link to="/artwork" class="link">Artwork</router-link> |
         <a href="../#about" v-scroll-to="'#about'" class="link">About</a> |
         <a href="../#contact" v-scroll-to="'#contact'" class="link">Contact</a>
       </div>
