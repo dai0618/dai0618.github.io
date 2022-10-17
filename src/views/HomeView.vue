@@ -30,9 +30,9 @@
             <br />
             2001年、東京都生まれ。
             <br />
-            慶応義塾大学・環境情報学部3年
+            慶應義塾大学・環境情報学部3年
             <br />
-            徳井直井研究室[Computational Creativity Lab]
+            徳井直生研究室[Computational Creativity Lab]
             、古谷知之研究室に所属。
             <br />
             幼少期からピアノを習い、音楽に興味を持ち始める。
@@ -126,9 +126,9 @@
             <br />
             2001年、東京都生まれ。
             <br />
-            慶応義塾大学・環境情報学部3年
+            慶應義塾大学・環境情報学部3年
             <br />
-            徳井直井研究室[Computational Creativity Lab]
+            徳井直生研究室[Computational Creativity Lab]
             、古谷知之研究室に所属。
             <br />
             幼少期からピアノを習い、音楽に興味を持ち始める。
