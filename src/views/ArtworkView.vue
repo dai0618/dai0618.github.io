@@ -17,6 +17,12 @@
         <router-link to="/smc" class="link">
           <img class="artwork_image" src="../assets/smc-image1.png" />
         </router-link>
+        <router-link to="/cl" class="link">
+          <img class="artwork_image" src="../assets/cl-image1.png" />
+        </router-link>
+        <router-link to="/xmc" class="link">
+          <img class="artwork_image" src="../assets/xmc-image1.png" />
+        </router-link>
       </div>
     </div>
     <div v-if="$mq === 'sp'" id="sp">
@@ -35,6 +41,12 @@
         </router-link>
         <router-link to="/smc" class="link">
           <img class="artwork_image" src="../assets/smc-image1.png" />
+        </router-link>
+        <router-link to="/cl" class="link">
+          <img class="artwork_image" src="../assets/cl-image1.png" />
+        </router-link>
+        <router-link to="/xmc" class="link">
+          <img class="artwork_image" src="../assets/xmc-image1.png" />
         </router-link>
       </div>
     </div>

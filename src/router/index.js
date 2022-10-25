@@ -32,6 +32,22 @@ const routes = [
         /* webpackChunkName: "about" */ "../views/artwork_folder/VfrView.vue"
       ),
   },
+  {
+    path: "/cl",
+    name: "cl",
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../views/artwork_folder/ClView.vue"
+      ),
+  },
+  {
+    path: "/xmc",
+    name: "xmc",
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../views/artwork_folder/XmcView.vue"
+      ),
+  },
 ];
 
 const router = new VueRouter({

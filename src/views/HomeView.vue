@@ -20,6 +20,12 @@
               <slide>
                 <img class="image" src="../assets/smc-image1.png" />
               </slide>
+              <slide>
+                <img class="image" src="../assets/cl-image1.png" />
+              </slide>
+              <slide>
+                <img class="image" src="../assets/xmc-image1.png" />
+              </slide>
             </hooper>
           </router-link>
         </div>
@@ -115,6 +121,12 @@
               </slide>
               <slide>
                 <img class="image" src="../assets/smc-image1.png" />
+              </slide>
+              <slide>
+                <img class="image" src="../assets/cl-image1.png" />
+              </slide>
+              <slide>
+                <img class="image" src="../assets/xmc-image1.png" />
               </slide>
             </hooper>
           </router-link>
