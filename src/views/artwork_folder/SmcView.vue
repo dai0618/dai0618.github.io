@@ -117,12 +117,10 @@ export default {
 
 <style lang="scss">
 #pc {
-  #content {
-    padding: 30px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
-  }
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
 
   a {
     color: #2c3e50;
@@ -153,12 +151,11 @@ export default {
 }
 
 #sp {
-  #content {
-    padding: 30px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
-  }
+  padding: 5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  color: #2c3e50;
 
   a {
     color: #2c3e50;
@@ -174,21 +171,13 @@ export default {
     line-height: 200%;
   }
 
-  .header-title {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    font-size: 30px;
-  }
-
   .hooper {
     height: 100%;
     text-align: center;
   }
 
   .smc_image {
-    width: 80%;
+    width: 100%;
   }
 
   .link:hover {

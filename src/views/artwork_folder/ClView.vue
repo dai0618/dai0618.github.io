@@ -56,10 +56,10 @@
         <h1>Calculative Linescape</h1>
         <hooper :settings="hooperSettings" class="hooper">
           <slide>
-            <img class="cl_image" src="../../assets/vfr-image1.png" />
+            <img class="cl_image" src="../../assets/cl-image1.png" />
           </slide>
           <slide>
-            <img class="cl_image" src="../../assets/vfr-image2.jpg" />
+            <img class="cl_image" src="../../assets/cl-image2.png" />
           </slide>
         </hooper>
         <div id="content_cl">
