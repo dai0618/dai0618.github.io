@@ -6,6 +6,7 @@ import Smc from "../views/artwork_folder/SmcView.vue";
 import Vfr from "../views/artwork_folder/VfrView.vue";
 import Cl from "../views/artwork_folder/ClView.vue";
 import Xmc from "../views/artwork_folder/XmcView.vue";
+import NotFound from "../views/NotFound.vue";
 
 Vue.use(VueRouter);
 
@@ -39,6 +40,11 @@ const routes = [
     path: "/xmc",
     name: "xmc",
     component: Xmc,
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "notfound",
+    component: NotFound,
   },
 ];
 

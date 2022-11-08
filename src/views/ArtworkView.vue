@@ -63,7 +63,7 @@
 
   .artwork_image {
     padding: 5px;
-    width: 25%;
+    width: 24%;
   }
 
   .artwork_image:hover {
