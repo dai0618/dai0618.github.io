@@ -15,16 +15,19 @@
           <router-link to="/artwork" class="link">
             <hooper :settings="hooperSettings" class="hooper">
               <slide>
-                <img class="image" src="../assets/vfr-image1.png" />
+                <img class="image" src="../assets/Variable-Flavor-Remix1.png" />
               </slide>
               <slide>
-                <img class="image" src="../assets/smc-image1.png" />
+                <img class="image" src="../assets/Scream-Music-Composer1.png" />
               </slide>
               <slide>
-                <img class="image" src="../assets/cl-image1.png" />
+                <img class="image" src="../assets/Calculative-Linescape1.png" />
               </slide>
               <slide>
-                <img class="image" src="../assets/xmc-image1.png" />
+                <img class="image" src="../assets/Music-Curtain.png" />
+              </slide>
+              <slide>
+                <img class="image" src="../assets/Muses-ex-Echoes1.png" />
               </slide>
             </hooper>
           </router-link>
@@ -117,16 +120,19 @@
           <router-link to="/artwork" class="link">
             <hooper :settings="hooperSettings" class="hooper">
               <slide>
-                <img class="image" src="../assets/vfr-image1.png" />
+                <img class="image" src="../assets/Variable-Flavor-Remix1.png" />
               </slide>
               <slide>
-                <img class="image" src="../assets/smc-image1.png" />
+                <img class="image" src="../assets/Scream-Music-Composer1.png" />
               </slide>
               <slide>
-                <img class="image" src="../assets/cl-image1.png" />
+                <img class="image" src="../assets/Calculative-Linescape1.png" />
               </slide>
               <slide>
-                <img class="image" src="../assets/xmc-image1.png" />
+                <img class="image" src="../assets/Music-Curtain.png" />
+              </slide>
+              <slide>
+                <img class="image" src="../assets/Muses-ex-Echoes1.png" />
               </slide>
             </hooper>
           </router-link>

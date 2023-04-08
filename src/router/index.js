@@ -2,10 +2,11 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import Artwork from "../views/ArtworkView.vue";
-import Smc from "../views/artwork_folder/SmcView.vue";
-import Vfr from "../views/artwork_folder/VfrView.vue";
-import Cl from "../views/artwork_folder/ClView.vue";
-import Xmc from "../views/artwork_folder/XmcView.vue";
+import ScreamMusicComposer from "../views/artwork_folder/Scream-Music-Composer.vue";
+import VariableFlavorRemix from "../views/artwork_folder/Variable-Flavor-Remix.vue";
+import CalculativeLinescape from "../views/artwork_folder/Calculative-Linescape.vue";
+import MusicCurtain from "../views/artwork_folder/Music-Curtain.vue";
+import MusesexEchoes from "../views/artwork_folder/Muses-ex-Echoes.vue";
 import NotFound from "../views/NotFound.vue";
 
 Vue.use(VueRouter);
@@ -22,24 +23,29 @@ const routes = [
     component: Artwork,
   },
   {
-    path: "/smc",
-    name: "smc",
-    component: Smc,
+    path: "/Scream-Music-Composer",
+    name: "Scream-Music-Composer",
+    component: ScreamMusicComposer,
   },
   {
-    path: "/vfr",
-    name: "vfr",
-    component: Vfr,
+    path: "/Variable-Flavor-Remix",
+    name: "Variable-Flavor-Remix",
+    component: VariableFlavorRemix,
   },
   {
-    path: "/cl",
-    name: "cl",
-    component: Cl,
+    path: "/Calculative-Linescape",
+    name: "Calculative-Linescape",
+    component: CalculativeLinescape,
   },
   {
-    path: "/xmc",
-    name: "xmc",
-    component: Xmc,
+    path: "/Music-Curtain",
+    name: "Music-Curtain",
+    component: MusicCurtain,
+  },
+  {
+    path: "/Muses-ex-Echoes",
+    name: "Muses-ex-Echoes",
+    component: MusesexEchoes,
   },
   {
     path: "/:pathMatch(.*)*",

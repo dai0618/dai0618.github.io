@@ -11,17 +11,20 @@
       </div>
       <div id="Artwork">
         <h1>Artwork</h1>
-        <router-link to="/vfr" class="link">
-          <img class="artwork_image" src="../assets/vfr-image1.png" />
+        <router-link to="/Variable-Flavor-Remix" class="link">
+          <img class="artwork_image" src="../assets/Variable-Flavor-Remix1.png" />
         </router-link>
-        <router-link to="/smc" class="link">
-          <img class="artwork_image" src="../assets/smc-image1.png" />
+        <router-link to="/Scream-Music-Composer" class="link">
+          <img class="artwork_image" src="../assets/Scream-Music-Composer1.png" />
         </router-link>
-        <router-link to="/cl" class="link">
-          <img class="artwork_image" src="../assets/cl-image1.png" />
+        <router-link to="/Calculative-Linescape" class="link">
+          <img class="artwork_image" src="../assets/Calculative-Linescape1.png" />
         </router-link>
-        <router-link to="/xmc" class="link">
-          <img class="artwork_image" src="../assets/xmc-image1.png" />
+        <router-link to="/Music-Curtain" class="link">
+          <img class="artwork_image" src="../assets/Music-Curtain.png" />
+        </router-link>
+        <router-link to="/Muses-ex-Echoes" class="link">
+          <img class="artwork_image" src="../assets/Muses-ex-Echoes1.png" />
         </router-link>
       </div>
     </div>
@@ -36,17 +39,20 @@
       </div>
       <div id="Artwork">
         <h1>Artwork</h1>
-        <router-link to="/vfr" class="link">
-          <img class="artwork_image" src="../assets/vfr-image1.png" />
+        <router-link to="/Variable-Flavor-Remix" class="link">
+          <img class="artwork_image" src="../assets/Variable-Flavor-Remix1.png" />
         </router-link>
-        <router-link to="/smc" class="link">
-          <img class="artwork_image" src="../assets/smc-image1.png" />
+        <router-link to="/Scream-Music-Composer" class="link">
+          <img class="artwork_image" src="../assets/Scream-Music-Composer1.png" />
         </router-link>
-        <router-link to="/cl" class="link">
-          <img class="artwork_image" src="../assets/cl-image1.png" />
+        <router-link to="/Calculative-Linescape" class="link">
+          <img class="artwork_image" src="../assets/Calculative-Linescape1.png" />
         </router-link>
-        <router-link to="/xmc" class="link">
-          <img class="artwork_image" src="../assets/xmc-image1.png" />
+        <router-link to="/Music-Curtain" class="link">
+          <img class="artwork_image" src="../assets/Music-Curtain.png" />
+        </router-link>
+        <router-link to="/Muses-ex-Echoes" class="link">
+          <img class="artwork_image" src="../assets/Muses-ex-Echoes1.png" />
         </router-link>
       </div>
     </div>
