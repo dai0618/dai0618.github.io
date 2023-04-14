@@ -6,8 +6,8 @@
       </div>
       <div id="nav">
         <router-link to="/artwork" class="link">Artwork</router-link> |
-        <a href="../#about" v-scroll-to="'#about'" class="link">About</a> |
-        <a href="../#contact" v-scroll-to="'#contact'" class="link">Contact</a>
+        <router-link to="/" class="link">About</router-link> |
+        <router-link to="/" class="link">Contact</router-link>
       </div>
       <div id="VariableFlavorRemix">
         <h1>Variable Flavor Remix</h1>
@@ -90,8 +90,8 @@
       </div>
       <div id="nav">
         <router-link to="/artwork" class="link">Artwork</router-link> |
-        <a href="../#about" v-scroll-to="'#about'" class="link">About</a> |
-        <a href="../#contact" v-scroll-to="'#contact'" class="link">Contact</a>
+        <router-link to="/" class="link">About</router-link> |
+        <router-link to="/" class="link">Contact</router-link>
       </div>
       <div id="VariableFlavorRemix">
         <h1>Variable Flavor Remix</h1>
