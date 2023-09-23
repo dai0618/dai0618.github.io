@@ -99,7 +99,7 @@
             >
               <img class="sns_image" src="../assets/SNS1.png" />
             </a>
-            <a class="link" href="https://twitter.com/ut42uzelwwkuau2">
+            <a class="link" href="https://twitter.com/daidai0618da">
               <img class="sns_image" src="../assets/SNS2.png" />
             </a>
             <br />
@@ -204,7 +204,7 @@
             >
               <img class="sns_image" src="../assets/SNS1.png" />
             </a>
-            <a class="link" href="https://twitter.com/ut42uzelwwkuau2">
+            <a class="link" href="https://twitter.com/daidai0618da">
               <img class="sns_image" src="../assets/SNS2.png" />
             </a>
             <br />
